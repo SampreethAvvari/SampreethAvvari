@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @SampreethAvvari
-- 👀 I’m interested in Machine Learning
-- 🌱 I’m currently learning Python
+- 👀 I’m interested in Deep Learning, NLP and Data Science
 - 📫 How to reach me LinkedIn Sampreeth Sharma Avvari
 
 <!---
