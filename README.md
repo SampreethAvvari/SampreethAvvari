@@ -6,9 +6,9 @@
 
 <p align="center">
   <a href="https://sampreethavvari.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-sampreethavvari.github.io-111?style=for-the-badge&logo=astro&logoColor=white"></a>
-  <a href="https://hi.switchy.io/MMTw"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/sampreethavvari/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:spa9659@nyu.edu"><img alt="Email" src="https://img.shields.io/badge/Email-spa9659%40nyu.edu-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://hi.switchy.io/q37U"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+  <a href="https://www.instagram.com/sampreeth.sharma/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
 </p>
 
 ---
