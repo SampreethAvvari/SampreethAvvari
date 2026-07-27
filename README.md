@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Sampreeth 👋</h1>
 
 <p align="center">
-  <em>AI Engineer · Production ML · NYU '25 · Occasional filmmaker</em>
+  <em>AI Engineer · Applied ML · NYU '25 · Occasional filmmaker</em>
 </p>
 
 <p align="center">
