@@ -43,7 +43,7 @@ Every line below is backed by something running in production, not a course cert
 | **Cowork Dashboard** | Single source of truth for two clinics: six tabs sharing one metrics module, fed by a weekly pipeline | ~99% patient to lead linkage, verified against raw exports |
 | **Ledger-Notes Verifier** | Cross-checks appointments, ledgers, and clinical notes and flags mismatches for the team | In weekly use, with team feedback shipped as versioned rule releases |
 
-Take the [interactive system tours](https://sampreethavvari.github.io/ai-systems-tours/) — sanitized, synthetic-data walkthroughs of each system — or read the longer stories on the [portfolio site](https://sampreethavvari.github.io).
+Take the [interactive system tours](https://sampreethavvari.github.io/ai-systems-tours/), sanitized synthetic-data walkthroughs of each system, or read the longer stories on the [portfolio site](https://sampreethavvari.github.io).
 
 ---
 
