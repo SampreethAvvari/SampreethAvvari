@@ -1,93 +1,75 @@
-<h1 align="center">Hi, I'm Sampreeth 👋</h1>
-
 <p align="center">
-  <em>AI Engineer · Applied ML · NYU '25 · Occasional filmmaker</em>
+  <img src="assets/hero.svg" alt="Sampreeth Avvari, AI Engineer. Agentic systems, RAG, LLM evals, medical imaging AI, GCP." width="100%">
 </p>
 
 <p align="center">
-  <a href="https://sampreethavvari.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-sampreethavvari.github.io-111?style=for-the-badge&logo=astro&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/sampreethavvari/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:spa9659@nyu.edu"><img alt="Email" src="https://img.shields.io/badge/Email-spa9659%40nyu.edu-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://www.instagram.com/sampreeth.sharma/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+  <a href="https://sampreethavvari.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-sampreethavvari.github.io-5B8DEF?style=for-the-badge&logo=astro&logoColor=white&labelColor=121216"></a>
+  <a href="https://www.linkedin.com/in/sampreethavvari/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-connect-22D3EE?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=121216"></a>
+  <a href="mailto:spa9659@nyu.edu"><img alt="Email" src="https://img.shields.io/badge/Email-spa9659%40nyu.edu-A78BFA?style=for-the-badge&logo=gmail&logoColor=white&labelColor=121216"></a>
+  <a href="https://www.instagram.com/sampreeth.sharma/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-follow-F5A524?style=for-the-badge&logo=instagram&logoColor=white&labelColor=121216"></a>
 </p>
 
----
+I'm an AI engineer at **Hybridge Implants** in New York. My job is the whole distance: take a fuzzy business problem, design the system, build the model pipeline, ship it on cloud infrastructure, and keep it alive with real users. Five of my systems run a dental implant company's daily operations today.
 
-### About
-
-I'm an AI Engineer at **Hybridge Implants** in New York. I turn fuzzy, real-world business problems — operations, pricing, medical imaging, clinical QA — into shipped systems that survive real users.
-
-I completed my **MS in Computer Engineering at NYU** in May 2025 (3.9 GPA), and spent earlier years building backend audio analytics at **Shure** and enterprise AI infrastructure at **Optimal Living Systems**. I care about clarity, good taste, and tech that feels human.
+MS in Computer Engineering from **NYU**, May 2025, 3.9 GPA. Before that, backend audio analytics at **Shure** and enterprise AI infrastructure at **Optimal Living Systems**. Credited for data engineering in a 2026 *Telecommunications Policy* paper on intangible assets and state GDP.
 
 ---
 
-### What I'm shipping in 2026
+### What I actually do with AI
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│ 🦷  CBCT Scan Validator              Production medical-imaging AI       │
-│     Replaced a $98K + $26K/yr vendor quote with an in-house stack        │
-│     running < $50/mo on GCP. Closes a 10-year recurring scan-loss        │
-│     problem with a 13-class taxonomy, OpenVINO inference on Cloud Run,   │
-│     CICT-gated CI/CD, and a tag-based release pipeline.                  │
-│                                                                          │
-│ 💰  Treatment Estimator              Per-location frozen-pricing engine  │
-│     Decoupled a decade-old single-price tool into a code-driven          │
-│     decision tree + DB-driven price catalog. Write-once *_at_capture     │
-│     columns enforced by Postgres triggers make the 6-month price         │
-│     guarantee a real system property — not a sticker on the PDF.         │
-│                                                                          │
-│ 📊  Cowork Dashboard                 Single source of truth, two clinics │
-│     Pivoted from a brittle live-API dashboard to a weekly-Excel          │
-│     pipeline. Patient↔lead linkage jumped 49% → 99% via Monday's         │
-│     connect column. Six tabs sharing one metrics module — structurally   │
-│     impossible for two views to disagree on the same number.             │
-│                                                                          │
-│ 🧠  Doc Coach (Consultation QA)      Zoom → Gemini → coaching reports    │
-│     Multi-tenant Cloud Run pipeline scoring every implant consultation   │
-│     against a 7-criterion clinical framework. JSON-Schema-validated      │
-│     Gemini output, three-layer identity resolution, color-coded PDFs.    │
-│     +130% treatment acceptance, +43% revenue, -35% hallucinations.       │
-└─────────────────────────────────────────────────────────────────────────┘
-```
+Every line below is backed by something running in production, not a course certificate.
 
-More detail (with architecture diagrams and project narratives) on the [portfolio site](https://sampreethavvari.github.io).
+**Agentic AI and orchestration.** I build multi-step agent systems: tool use and function calling, MCP servers, headless LLM pipelines that plan, act, and verify. My job application agent screens postings, tailors materials against a locked profile, and applies with human review gates. My work journal agent sweeps 35 project folders twice a day, reads git diffs and session transcripts, and writes the day's engineering log by itself.
+
+**RAG and retrieval.** Embeddings, pgvector, chunking strategy, and the part people skip: retrieval evaluation. My portfolio chatbot answers from a knowledge graph built over my own projects and writing. At work, an enterprise search system makes ten years of clinical documents answerable.
+
+**LLM engineering.** Structured outputs enforced with JSON Schema, prompt design treated as an interface contract, hallucination measurement and reduction (minus 35% on our consultation QA pipeline), model evals wired into CI so quality regressions fail the build instead of reaching users.
+
+**Fine-tuning and alignment.** SFT and RLHF (GRPO and PPO) with QLoRA and TRL on Llama 3.1 for NYU research on LLM persuasion; fine-tuned Llama 3 8B and RoBERTa on 1.8M tweets for misinformation work.
+
+**Applied computer vision.** A production 3D medical imaging system: 13-class CBCT scan taxonomy, MONAI and PyTorch training, OpenVINO inference on Cloud Run, built in-house for under $50 a month against a $98K vendor quote.
+
+**Platform and MLOps.** GCP end to end: Cloud Run, Cloud SQL, Pub/Sub, Eventarc, Vertex AI, Firestore. Docker, Kubernetes, Terraform, GitHub Actions with release gates, OpenTelemetry, MLflow, Weights & Biases. Systems earn their keep after the demo, so observability and CI/CD are part of the design, not an afterthought.
 
 ---
 
-### Selected earlier work
+### Production systems I built and run
 
-- **Loan Radar** · production-grade loan default scoring with MLflow lineage, Docker + Ray + Kubernetes, 0.79ms median inference at 33k+ samples/s
-- **LLM Persuasion (NYU research)** · SFT + RLHF (GRPO/PPO) with QLoRA + TRL on Llama 3.1, comparing reward-modeled policy-optimization variants
-- **Fake News & Sentiment** · fine-tuned Llama 3 8B + RoBERTa on 1.8M tweets; 76% on LIAR; LDA topic-level patterns
-- **ResNet under 5M params** · custom CIFAR-10 architectures; 97.12% on ResNet-26 with <5M parameters
+| System | What it does | Proof it matters |
+|---|---|---|
+| **Doc Coach** | Scores every implant consultation call against a 7-criterion clinical framework: Zoom to Gemini to coaching report, multi-tenant on Cloud Run | +130% treatment acceptance, +43% revenue, minus 35% hallucinations |
+| **CBCT Scan Validator** | 3D medical imaging QA that catches bad scans before they cost a surgery slot | Replaced a $98K + $26K/yr vendor quote with under $50/mo on GCP |
+| **Treatment Estimator** | Pricing engine with per-location catalogs and write-once price capture enforced by Postgres triggers | A 6-month price guarantee that is a database property, not a promise |
+| **Cowork Dashboard** | Single source of truth for two clinics: six tabs sharing one metrics module, fed by a weekly pipeline | Patient to lead linkage jumped from 49% to 99% |
+| **Ledger-Notes Verifier** | Cross-checks appointments, ledgers, and clinical notes and flags mismatches for the team | In weekly use, with team feedback shipped as versioned rule releases |
 
----
-
-### Tech I reach for
-
-**Languages** Python · TypeScript · Go · Java · SQL  
-**Web / Backend** FastAPI · Next.js · Auth.js · Drizzle · Flask · Spring Boot · Node.js  
-**ML / Data** PyTorch · PyTorch Lightning · MONAI · Transformers · TRL · OpenVINO · pgvector · LangChain  
-**Infra / Cloud** GCP (Cloud Run · Cloud SQL · Eventarc · Pub/Sub · Vertex AI) · AWS (S3 · ECS · EC2) · Docker · Kubernetes · Terraform · GitHub Actions  
-**Observability** OpenTelemetry · Cloud Logging · W&B · MLflow · pino · structlog
+Architecture diagrams and the longer stories live on the [portfolio site](https://sampreethavvari.github.io).
 
 ---
 
-### How I think about engineering
+### Stack
 
-- **Brainstorm → ADR → spec → plan → execute.** Tradeoff tables and consequences live in the repo, not in someone's head.
-- **Single source of truth, always.** If two tabs can disagree, they will.
-- **Trust internal code; validate at boundaries.** Don't pad with defensive checks for things that can't happen.
-- **Honest evaluation over green dashboards.** Ship the honest AUROC number; don't game the gate.
-- **Boring tech where it serves the user.** Apps Script + weekly Excel beats a real-time dashboard nobody trusts.
+**Languages** Python, TypeScript, Go, Java, SQL
+**AI/ML** PyTorch, Transformers, TRL, MONAI, OpenVINO, LangChain, pgvector, Gemini and Claude APIs, MCP
+**Backend and web** FastAPI, Next.js, Node.js, Flask, Spring Boot, Postgres, Firestore
+**Cloud and infra** GCP (Cloud Run, Cloud SQL, Pub/Sub, Eventarc, Vertex AI), AWS (S3, ECS, EC2), Docker, Kubernetes, Terraform, GitHub Actions
+**Quality** OpenTelemetry, MLflow, Weights & Biases, JSON Schema validation, eval harnesses in CI
 
 ---
 
-### Off-keyboard
+### How I work
 
-I make movies — screenplay writer, editor, director. Currently editing one. Happy to chat about story structure as much as system design.
+- Spec before code. Tradeoffs and decisions live in the repo, not in someone's head.
+- One source of truth. If two views can disagree on a number, they eventually will.
+- Honest evals over green dashboards. Ship the real AUROC, never game the gate.
+- Boring tech where it serves the user. A weekly Excel pipeline the team trusts beats a live dashboard nobody does.
+
+---
+
+### Off keyboard
+
+I write, edit, and direct short films. Currently editing one. Equally happy arguing about story structure or system design.
 
 <p align="center">
-  <sub>📍 New York, NY · 📬 <a href="mailto:savvari@hybridgeimplants.com">savvari@hybridgeimplants.com</a> · 🌐 <a href="https://sampreethavvari.github.io">sampreethavvari.github.io</a></sub>
+  <sub>New York, NY · <a href="mailto:spa9659@nyu.edu">spa9659@nyu.edu</a> · <a href="https://sampreethavvari.github.io">sampreethavvari.github.io</a></sub>
 </p>

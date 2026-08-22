@@ -1,0 +1,84 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sampreeth Avvari, AI Engineer">
+  <defs>
+    <radialGradient id="glowBlue" cx="0.85" cy="0.05" r="0.7">
+      <stop offset="0%" stop-color="#5B8DEF" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#5B8DEF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="0.1" cy="1" r="0.65">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowViolet" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E1E24" stop-opacity="0.82"/>
+      <stop offset="100%" stop-color="#121216" stop-opacity="0.86"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="18%" stop-color="#FFFFFF" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="35%" stop-color="#22D3EE"/>
+      <stop offset="70%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <!-- night sky -->
+  <rect width="1200" height="320" fill="#050507"/>
+  <rect width="1200" height="320" fill="url(#glowBlue)"/>
+  <rect width="1200" height="320" fill="url(#glowCyan)"/>
+  <rect width="1200" height="320" fill="url(#glowViolet)"/>
+
+  <!-- stars -->
+  <g fill="#F5F5F7">
+    <circle cx="96" cy="52" r="1.3" opacity="0.7"/>
+    <circle cx="212" cy="120" r="1" opacity="0.4"/>
+    <circle cx="340" cy="38" r="1.4" opacity="0.55"/>
+    <circle cx="520" cy="70" r="1" opacity="0.35"/>
+    <circle cx="705" cy="30" r="1.2" opacity="0.5"/>
+    <circle cx="836" cy="88" r="1" opacity="0.4"/>
+    <circle cx="985" cy="42" r="1.4" opacity="0.6"/>
+    <circle cx="1120" cy="112" r="1" opacity="0.45"/>
+    <circle cx="1060" cy="256" r="1.2" opacity="0.5"/>
+    <circle cx="150" cy="270" r="1" opacity="0.4"/>
+    <circle cx="430" cy="292" r="1.2" opacity="0.45"/>
+    <circle cx="760" cy="286" r="1" opacity="0.35"/>
+  </g>
+
+  <!-- aurora blobs behind the panel -->
+  <ellipse cx="1030" cy="40" rx="220" ry="120" fill="#5B8DEF" opacity="0.18" filter="url(#soft)"/>
+  <ellipse cx="150" cy="290" rx="240" ry="110" fill="#22D3EE" opacity="0.14" filter="url(#soft)"/>
+
+  <!-- glass panel -->
+  <rect x="60" y="56" width="1080" height="208" rx="28" fill="url(#panel)"/>
+  <rect x="60.75" y="56.75" width="1078.5" height="206.5" rx="27.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+  <!-- inset top highlight -->
+  <rect x="78" y="58.5" width="1044" height="1.5" rx="0.75" fill="#FFFFFF" opacity="0.14"/>
+
+  <!-- content -->
+  <text x="110" y="128" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="-1" fill="#F5F5F7">Sampreeth Avvari</text>
+  <text x="110" y="166" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="0.2" fill="#5B8DEF">AI Engineer · I build applications around models and ship them to production</text>
+
+  <rect x="110" y="186" width="330" height="3" rx="1.5" fill="url(#accentLine)"/>
+
+  <text x="110" y="226" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#9B9BA3">Agentic systems · RAG · LLM evals · Medical imaging AI · GCP</text>
+
+  <!-- pills on the right -->
+  <g font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">
+    <rect x="872" y="102" width="176" height="34" rx="17" fill="#5B8DEF" fill-opacity="0.10" stroke="#5B8DEF" stroke-opacity="0.45" stroke-width="1.2"/>
+    <text x="960" y="124" text-anchor="middle" fill="#5B8DEF">NYU MSCE '25 · 3.9</text>
+    <rect x="872" y="146" width="176" height="34" rx="17" fill="#34D399" fill-opacity="0.10" stroke="#34D399" stroke-opacity="0.45" stroke-width="1.2"/>
+    <text x="960" y="168" text-anchor="middle" fill="#34D399">5 systems in production</text>
+    <rect x="872" y="190" width="176" height="34" rx="17" fill="#F5A524" fill-opacity="0.10" stroke="#F5A524" stroke-opacity="0.45" stroke-width="1.2"/>
+    <text x="960" y="212" text-anchor="middle" fill="#F5A524">New York, NY</text>
+  </g>
+</svg>
