@@ -40,10 +40,10 @@ Every line below is backed by something running in production, not a course cert
 | **Doc Coach** | Scores every implant consultation call against a 7-criterion clinical framework: Zoom to Gemini to coaching report, multi-tenant on Cloud Run | +130% treatment acceptance, +43% revenue, minus 35% hallucinations |
 | **CBCT Scan Validator** | 3D medical imaging QA that catches bad scans before they cost a surgery slot | Replaced a $98K + $26K/yr vendor quote with under $50/mo on GCP |
 | **Treatment Estimator** | Pricing engine with per-location catalogs and write-once price capture enforced by Postgres triggers | A 6-month price guarantee that is a database property, not a promise |
-| **Cowork Dashboard** | Single source of truth for two clinics: six tabs sharing one metrics module, fed by a weekly pipeline | Patient to lead linkage jumped from 49% to 99% |
+| **Cowork Dashboard** | Single source of truth for two clinics: six tabs sharing one metrics module, fed by a weekly pipeline | ~99% patient to lead linkage, verified against raw exports |
 | **Ledger-Notes Verifier** | Cross-checks appointments, ledgers, and clinical notes and flags mismatches for the team | In weekly use, with team feedback shipped as versioned rule releases |
 
-Architecture diagrams and the longer stories live on the [portfolio site](https://sampreethavvari.github.io).
+Take the [interactive system tours](https://sampreethavvari.github.io/ai-systems-tours/) — sanitized, synthetic-data walkthroughs of each system — or read the longer stories on the [portfolio site](https://sampreethavvari.github.io).
 
 ---
 
